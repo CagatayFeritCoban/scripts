@@ -1,0 +1,4 @@
+on join:
+    send "&1 Sunucuya Hoş geldiniz %player%" to player
+    broadcast "&6 Sunucuya %player% giriş yaptı." to players
+on quit:
