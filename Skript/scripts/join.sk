@@ -1,0 +1,6 @@
+on join:
+    if player has played before:
+        set join message to " &1&l[&a&l%player%&1&l] &6Sunucumuza Tekrar Hoş Geldin."
+    else:
+        set join message to "&a %player% &6 Aramıza Yeni Katıldı."
+    broadcast "&6 Sunucuya %player% giriş yaptı." to players
